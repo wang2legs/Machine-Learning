@@ -1,0 +1,19 @@
+---
+title: "Perceptron"
+author: "Rui Wang"
+date: "10/19/2018"
+output: pdf_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+### Perceptron(Rosenblatt 1958)
+
+#### Basic Theory
+
+* Seperation happens
+
+* A hyperplane is represented by a vector that is perpendicular to it
+     + $\hat{y} = sign(f(x)) = sign(\vec{\omega}\cdot \vec {x})$; $\hat{y}$ is prediction, $f$ is a hyperplane
